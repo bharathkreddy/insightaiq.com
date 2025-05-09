@@ -3,8 +3,7 @@ name: 🚀 Deploy via FTP to Hostinger
 on:
   push:
     branches:
-      - main # Adjust branch if needed
-
+      - main
 jobs:
   deploy:
     name: FTP Deploy
