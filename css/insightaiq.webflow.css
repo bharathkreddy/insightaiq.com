@@ -971,6 +971,10 @@ a .bottom-team {
   text-decoration: none;
 }
 
+.wrap-text-service-animated > a {
+  text-decoration: none;
+}
+
 blockquote {
   border-left: 5px solid var(--color--accent);
   font-family: var(--font--headings);
@@ -1712,6 +1716,10 @@ blockquote {
   display: block;
 }
 
+.logo {
+  width: 25%;
+}
+
 .no-margins {
   margin-top: 0;
   margin-bottom: 0;
@@ -1864,7 +1872,7 @@ blockquote {
 
 .big-text-service-animated {
   font-family: var(--font--headings);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 64px;
   font-weight: 600;
   line-height: 100%;
@@ -2112,7 +2120,7 @@ blockquote {
 .single-contact-link {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   justify-content: flex-start;
   align-items: center;
   font-size: 32px;
@@ -5066,4 +5074,10 @@ blockquote {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
+}
+
+.insightpii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
